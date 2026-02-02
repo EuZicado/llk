@@ -1,0 +1,5 @@
+{
+  "name": "PinCollect AI - Pinterest Board Downloader",
+  "description": "A smart tool to analyze Pinterest boards and help you collect and download images using Gemini AI's search capabilities.",
+  "requestFramePermissions": []
+}

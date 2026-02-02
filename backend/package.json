@@ -1,0 +1,37 @@
+{
+  "name": "pincollect-backend",
+  "version": "1.0.0",
+  "description": "Pinterest Board Downloader Backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "test": "jest"
+  },
+  "keywords": ["pinterest", "scraper", "download", "api"],
+  "author": "PinCollect Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^22.0.0",
+    "archiver": "^6.0.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.8.0",
+    "uuid": "^9.0.0",
+    "fs-extra": "^11.1.1",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.0",
+    "@types/archiver": "^5.3.2",
+    "@types/fs-extra": "^11.0.1",
+    "@types/uuid": "^9.0.2",
+    "typescript": "^5.1.6",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
